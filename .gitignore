@@ -1,3 +1,11 @@
+#Travis Added
+*.csv
+*.png
+*.pdf
+*.fig
+*.xlsx
+*.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
