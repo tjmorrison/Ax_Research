@@ -6,10 +6,9 @@
 clear; close all;
 %% Load storm of interest
 
-start_time = datetime('3/25/2021 07:15:00'); %data collection start in MST
-Data_path = 'C:\Users\tjmor\OneDrive\Research\Data\DEID_data\2020_2021\March25_2021_5mm_time_mass_density_swerate_snowheight_complx_SDI_sweheight.txt';
-figure_path = 'C:\Users\tjmor\OneDrive\Documents\Code\DEID\Report_Figures\Ensemble_Model\Mar_25_2021\';
-
+start_time = datetime('04/14/2021 02:22:15'); %data collection start in MST
+Data_path = 'E:\Travis\Data\DEID\April_15_2021_time_mass_density_swerate_snowheight_complx_SDI_sweheight.txt';
+figure_path = 'E:\Travis\DEID_Ax_Research\SNOSS_model_Research\Ensemble_Model\April_15_2021\';
 % Read data
 %time(sec),mass(kg),density(kg/m3),swe rate (mm/hr),snow height
 %(mm),complexity,SDI,swe height (mm)

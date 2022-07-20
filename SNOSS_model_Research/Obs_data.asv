@@ -41,8 +41,8 @@ Explosive_data = timetable(datetime(Explosive_data(:,1)),Explosive_data(:,6),'Va
 
 %% Calculation for Table for DEID report
 clc;
-startTime = datetime('14-Dec-2020');
-endTime = datetime('17-Dec-2020');
+startTime = datetime('14-Apr-2021');
+endTime = datetime('16-Apr-2021');
 
 Natural_num = length(Natural_data.Time(startTime:endTime))
 Unknown_num = length(Unknown_data.Time(startTime:endTime))
