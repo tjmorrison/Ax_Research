@@ -8,7 +8,7 @@ clear; close all;
 
 start_time = datetime('04/14/2021 02:22:15'); %data collection start in MST
 Data_path = 'E:\Travis\Data\DEID\April_15_2021_time_mass_density_swerate_snowheight_complx_SDI_sweheight.txt';
-figure_path = 'E:\Travis\DEID_Ax_Research\SNOSS_model_Research\Ensemble_Model\April_15_2021\';
+% figure_path = 'E:\Travis\DEID_Ax_Research\SNOSS_model_Research\Ensemble_Model\April_15_2021\';
 % Read data
 %time(sec),mass(kg),density(kg/m3),swe rate (mm/hr),snow height
 %(mm),complexity,SDI,swe height (mm)
